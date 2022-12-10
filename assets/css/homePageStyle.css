@@ -1,0 +1,381 @@
+.wrapper {
+    min-width: 320px;
+    min-height: 100%;
+    margin: 0 auto;
+    background: #fdfcf0;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(253, 252, 240);
+}
+.wrapper:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* header-language-background */
+
+.header-language-background, .header-language-background a{
+    color: #666;
+}
+.header-language-background{
+    height: 29px;
+    text-transform: uppercase;
+}
+
+.header-language-background .form-language, .header-language-background .currency-switcher {
+    float: left;
+}
+
+.header-language-background::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+@media only screen and (min-width: 771px){
+.header_container {
+    height: 29px;
+    margin: 0 auto;
+    width: 980px;}
+}
+.header-language-right {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    float: right;
+}
+@media only screen and (min-width: 771px){
+.header-language-right {
+    float: right;
+}
+}
+
+.header-language-right a {
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+.header-language-right .links li, .header-language-right > p, .header-language-right > div {
+    display: inline-block;
+}
+.mn-career, .mn-newsoffer, .mn-myticket, .mn-login {
+    position: relative;
+    margin-left: 35px;
+}
+.header-career{
+    margin-right: 15px;
+}
+
+.header-career, .header-top-account {
+    padding-top: 5px;
+}
+
+.mn-career::before {
+    width: 25px;
+    content: "";
+    background-image: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/recruitment_icon1.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -27px;
+    top: 13px;
+    height: 25px;
+}
+.mn-newsoffer::before {
+    width: 25px;
+    content: "";
+    background-image: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/icon_promotion25.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -27px;
+    top: 13px;
+    height: 25px;
+}
+.mn-myticket::before {
+    width: 25px;
+    content: "";
+    background-image: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/icon_ticket25.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -27px;
+    top: 13px;
+    height: 25px;
+}
+@media only screen and (min-width: 771px){
+.header-top-account {
+    float: right;
+}}
+
+.mn-login::before {
+    width: 25px;
+    content: "";
+    background-image: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/icon_login25.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -15px;
+    top: 5px;
+    height: 25px;
+}
+.topskip-link {
+    position: relative;
+    float: left;
+    width: 100%;
+    color: #636363;
+    text-align: center;
+}
+@media only screen and (min-width: 771px){
+.skip-account {
+    float: none;
+    width: auto;
+    vertical-align: top;
+    display: inline-block;
+    padding: 13px 10px;
+    text-transform: uppercase;
+}
+}
+
+/* header */
+.page-header{
+    margin-top: 50px;
+    display: inline-block;
+
+}
+@media only screen and (min-width: 771px){
+    .page-header{
+        width: 100%;
+        margin: 0 auto;
+        background: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg-cgv/bg-top.png) repeat scroll left bottom transparent;
+        background-size: 10px 135px;
+        height: 135px;
+        
+    } 
+}
+.page-header-container{
+    position: relative;
+    z-index: 2000;
+    margin-left:0;
+    margin-right:0;
+
+}
+@media only screen and (min-width: 771px){
+.page-header-container {
+    width: 980px;
+    margin: 0px auto;
+    position: relative;
+}
+}
+@media only screen and (min-width: 771px){
+.logo {
+    max-width: 300px;
+    min-height: 90px;
+}
+}
+#header .logo{
+    display: block;
+    float: left;
+    min-width: 100px;
+    min-height: 44px;
+    text-align: center;
+    margin-top: 40px;
+}
+#header a{
+    color: #e71a0f;
+    text-decoration: none;
+}
+@media only screen and(min-width:771px){
+    .logo .large{
+        display: block;
+    }
+}
+
+#header a .logo{
+    display: block;
+    float: left;
+    min-width: 100px;
+    min-height: 44px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.logo .large{
+    display: none;
+}
+.logo img{
+    max-width: 100%;
+
+}
+img{
+    display: block;
+    border: 0;
+}
+
+
+
+/* main-containet col1-layout */
+
+.main-containet{
+    padding-top: 20px;
+
+}
+.cms-index-index, .main-container{
+    background: url(https://www.cgv.vn/skin/frontend/cgv/default/images/bg_c_bricks.png) repeat-x scroll 0 124px rgba(0, 0, 0, 0);
+    
+}
+
+@media only screen and (min-width: 480px){
+.main-container, .footer-container {
+    padding: 30px;
+}
+}
+
+.main-container, .footer-container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px !important;
+}
+
+@media only screen and (min-width: 771px){
+.main {
+    width: 980px;
+}
+}
+.main{
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.main::after, .col-wrapper::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.col1-layout .col-main {
+    float: none;
+    width: auto;
+    padding: 0;
+}
+.col1-layout .col-main {
+    float: none;
+    width: auto;
+    padding: 0;
+}
+
+.col-left, .col-right, .col-main {
+    padding: 0 10px;
+}
+
+body .cms-home, .slideshow-container{
+    margin-top: 0px;
+}
+
+.slideshow-container {
+    position: relative;
+    /* display: inline-block; */
+    width: 100%;
+    margin: 10px 0;
+    border: 1px solid #636363;
+    max-width: 1000px;
+    overflow: hidden;
+}
+/* ẩn hình ảnh cho phần tử slideshow */
+ .mySlides {
+    display: none;
+  } 
+ /* thiết kế nút mũi tên*/
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+ /* thiết kế nút mũi tên next nằm phía bên phải */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+ /* hiệu ứng thay đổi background khi hover vào nút mũi tên*/
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+/* thiết lập style  nút tròn điều khiển*/
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+ .active, .dot:hover {
+    background-color: #717171;
+  }
+ /* tạo hiệu ứng chuyển động fade */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+ @-webkit-keyframes fade {
+    from {opacity: .1}
+    to {opacity: 1}
+  }
+ @keyframes fade {
+    from {opacity: .9}
+    to {opacity: 1}
+  }
+  /* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next {font-size: 11px}
+  }
+
+
+
+
+
+/* .slideshow-container .slideshow {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    margin: 0;
+}
+.slideshow-container .slideshow >li:first-child{
+    position: static;
+    z-index: 100;
+}
+
+.slideshow-container .slideshow >li{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    display: block;
+    margin: 0;
+}
+
+.slideshow-container .slideshow > li img {
+    max-width: 100%;
+    width: 100%;
+}
